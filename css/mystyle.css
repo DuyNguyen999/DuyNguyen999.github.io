@@ -98,6 +98,17 @@ footer {
     height: 90%;
 }
 
+/**Home**/
+.aside-content{
+    background-color: rgb(210 224 255);
+}
+
+/****Collection****/
+
+.blog2, .blog4 {
+    background-color: rgb(210 224 255);
+}
+    
 
 /*** Contact form  ***/
 .faq-header{
@@ -107,7 +118,7 @@ footer {
     display: flex;
     justify-content: space-around;
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: rgb(210 224 255);
     padding: 10px;
 }
 
