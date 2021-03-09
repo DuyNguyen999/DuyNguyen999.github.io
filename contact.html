@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duy's Porfolio</title>
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="./css/mystyle.css">
+    <link rel="stylesheet" href="./css/srceen.css">
+    <!-- javascript -->
+    <script src="./js/myscripts.js" defer></script>
+    <!-- font awsome and google font     -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- nav bar -->
+        <nav class="navbar">
+            <!-- logo -->
+            <div class="logo">
+                <h1 class="home-title">ND</h1>
+            </div>
+            <!-- menu item -->
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="collection.html">Collection</a></li>
+                    <li><a href="contact.html">Contact</a></li>                   
+                </ul>
+            </div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>                        
+        </nav>
+     
+    </header>
+    <section>
+        <h2 class="faq-header">FAQ</h2>
+        <img src="./source/faq.jpg" alt="faq">
+        <h4>Question 1:</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <h4>Answer:</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <h4>Question 2:</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <h4 >Answer:</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        
+    </section>
+    <section>
+        <h2>Fill in this form for contact</h2>
+        <div class="form-container">
+            <form action="#">
+                <label for="fullname">Your Name</label>
+                <input type="text" id="fullname" placeholder="enter your name...">
+                <label for="contactnumber">Your Contact Number</label>
+                <input type="text" id="contactnumber" placeholder="enter your contact number...">
+                <label for="purpose">Contact purpose</label>
+                <select name="purpose" id="purpose">
+                    <option value="freelance">Freelance</option>
+                    <option value="offer">Job Offer</option>
+                    <option value="sponsor">Sponsor</option>
+                </select>
+                <label for="subject">Subject</label>
+                <textarea name="subject" id="subject" cols="30" rows="10" placeholder="Please type here..."></textarea>
+                <input type="submit">
+            </form>
+        </div>
+     
+    </section>
+    
+    <footer>
+        <div class="social">
+            <h6>Find me at</h6>
+            <a href="#" class="fa fa-google"></a>
+            <a href="https://www.linkedin.com/feed/" class="fa fa-linkedin"></a> 
+        </div>
+        <div class="copyright">
+            Copyright &copy; 2021
+        </div>
+    </footer>
+</body>
+</html>
