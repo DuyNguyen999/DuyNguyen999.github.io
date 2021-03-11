@@ -1,13 +1,20 @@
+/*MOBILE*/
 @media screen and (max-width: 767px) {
    
         body{
-            font-size: large;
+            font-size: 1.5rem;
         }
+
+/*Introduction*/
+.home-bgimage{
+    width: 100%;
+}
     
-        .test {
-            display: flex;
-            flex-direction: column;
-        }
+.home-introduction {
+    display: flex;
+    flex-direction: column;
+}
+/**Nav Bar**/
 
         .toggle-button {
             display: flex;
@@ -34,20 +41,29 @@
             display: flex;
         }       
     }
-   
+
+/***TABLET Screen***/
 
 @media screen and (min-width: 768px) {
     body{
-        font-size: xx-large;
-    }
-    .container {        
-        display: flex;
+        font-size: 2rem;
     }
 
-    .test {
+    /*Introduction*/
+    .container {        
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .home-bgimage{
+        width: 100%;
+    }
+     
+    .home-introduction {
         display: flex;
         flex-direction: column;
     }
+
+    /*Nav bar*/
 
     .toggle-button {
         display: none;
@@ -55,12 +71,94 @@
     .navbar-links{
         display: flex;
     }
-    
-    
+    .home-title
+    {
+    font-size: 3rem;
+    }
+
+    /**Blogs**/
+
+    .blog1, .blog2, .blog3, .blog4, .blog5,.blog6{
+        width: 50%;
+    }
+    .blog1, .blog3, .blog5{
+        float: left;
+    }
+    .blog2, .blog4, .blog6{
+        float: right;
+    }
+    .blog3 {
+        background-color: rgb(210 224 255);
+    }
+    .blog4{
+        background-color: rgb(239 244 255);
+    }
+/*Footer*/    
+    footer{
+        font-size: 20px;
+    }
+    .fa {
+        width: 45px;
+        font-size: 25px;
+    }
 }
+
+/***BIG Screen***/
+
+
 @media screen and (min-width: 1280px) {
+    body{
+        font-size: 3rem;
+    }
+    .home-title
+    {
+    font-size: 4rem;
+    }
+
+    /*Introduction*/
     .container {
         margin: 0 auto;
+        display: flex;
+    }
+    .home-introduction{
+        width: 30%;
+    }
+    .home-bgimage{
+        width: 70%;
+    }
+    /***Blogs***/
+    .blog1, .blog2, .blog3, .blog4, .blog5, .blog6{
+        width: 33%;
+        float: left;
+    }
+    .blog2, .blog4{
+        background-color: rgb(210 224 255);        
+    }
+    .blog3, .blog5{
+        background-color: rgb(239 244 255);
     }
    
+    /*Work*/
+    .work-flex-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .education, .experience {
+        width: 50%;
+        height: 50%;
+    }
+    .side-project{
+        width: 50%;
+        background-color: rgb(210 224 255);
+    }
+
+    /*Footer*/
+    footer{
+        font-size: 25px;
+    }
+    .fa {
+        width: 50px;
+        font-size: 30px;
+    }
 }
