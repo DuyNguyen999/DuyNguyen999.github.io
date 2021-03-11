@@ -1,0 +1,29 @@
+commit 7431aa052273b8563d366f8b70b86b26ba51eb56
+Author: DuyN <ngocduynguyen.aug@gmail.com>
+Date:   Thu Mar 11 23:01:20 2021 +1100
+
+    update font, photo, social link
+
+commit 72fbf33ee38a89f173ebacc9413e7bbe39177451
+Author: DuyN <ngocduynguyen.aug@gmail.com>
+Date:   Thu Mar 11 21:38:00 2021 +1100
+
+    layout changed for Work and Collection
+
+commit 92d134b799f129469738dcae453108c2d226cead
+Author: DuyN <ngocduynguyen.aug@gmail.com>
+Date:   Wed Mar 10 09:39:55 2021 +1100
+
+    layout edited
+
+commit 03ddc28573783a5feeafaf037c416a2bce903ec1
+Author: DuyN <ngocduynguyen.aug@gmail.com>
+Date:   Tue Mar 9 14:51:07 2021 +1100
+
+    initial commit
+
+commit 7499e14af2c9dc91ceb204eb21a9c88561c7e735
+Author: DuyN <ngocduynguyen.aug@gmail.com>
+Date:   Tue Mar 9 14:49:14 2021 +1100
+
+    first commit
