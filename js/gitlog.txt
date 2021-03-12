@@ -1,3 +1,9 @@
+commit 5cf43d4a39ff0806a9ded6e7e6d43fefe054ad27
+Author: DuyN <ngocduynguyen.aug@gmail.com>
+Date:   Thu Mar 11 23:51:30 2021 +1100
+
+    add SRI
+
 commit 7431aa052273b8563d366f8b70b86b26ba51eb56
 Author: DuyN <ngocduynguyen.aug@gmail.com>
 Date:   Thu Mar 11 23:01:20 2021 +1100
